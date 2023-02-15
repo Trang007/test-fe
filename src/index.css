@@ -1,1 +1,7 @@
 @import url(./components/header.module.css);
+body{
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
