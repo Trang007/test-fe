@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.AboutUs {
+    display: flex;
+  flex-direction: column;
+  padding: 80px;
+  position: relative;
+}
+.About_top {
+}
+
+.About_top_img{
+    display: flex;
+    justify-content: center;
+    
+}
+.About_img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.About_triangle {
+  content: "";
+  background: url(../assets/about-Curve-shape.png) no-repeat top left;
+  position: absolute;
+  width: 363px;
+  height: 360px;
+}
+.About_text {
+    padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+.About_text h2 {
+  margin-bottom: 24px;
+}
+.About_text p {
+  margin-bottom: 14px;
+}
+h5 {
+  color: orange;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 55px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #000;
+}
+p {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #5a5a5a;
+  margin-top: 0px;
+}

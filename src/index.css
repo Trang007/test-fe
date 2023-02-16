@@ -1,7 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
 @import url(./components/header.module.css);
-body{
-    overflow-x: hidden;
-}
-*{
-    box-sizing: border-box;
-}
+@import url(./components/Container.module.css);
+@import url(./components/AboutUs.module.css)
