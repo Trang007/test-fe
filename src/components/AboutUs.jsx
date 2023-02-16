@@ -2,6 +2,7 @@ import React from "react";
 import style from "./AboutUs.module.css";
 import about_img from "../assets/about-sec-img.jpg";
 import about_video from "../assets/video-poster.jpg";
+import youtube from "../assets/youtube-icon.png"
 const AboutUs = () => {
   return (
     <div className={style["AboutUs"]}>
@@ -39,6 +40,9 @@ const AboutUs = () => {
       
       <div className={style["About_video"]}>
         <img src={about_video} alt="" />
+        <div className={style["Youtube"]}>
+          <img src={youtube} alt="" />
+        </div>
       </div>
     </div>
   );
