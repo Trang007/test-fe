@@ -14,6 +14,7 @@ body {
   width: 100% !important;
   position: relative;
   display: flex;
+  align-items: center;
 }
 
 .Menu_triangle {
@@ -32,6 +33,7 @@ body {
   padding: 20px;
   position: absolute;
   width: 100%;
+  top:0;
 }
 .Icon {
   margin-right: 25px;
@@ -41,22 +43,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
+  position: relative;
 }
+
 .Menu a {
   margin: 0px 25px;
-  color: aliceblue;
   font-size: 20px;
   padding: 0 5px;
-  display: inline-block;
+  text-decoration: none;
+  color:#fff;
 }
 .Menu .btn_contaict {
-  background-color: orange;
+  background-color: #fa9f3c;
+  border: 1px solid #636569;
   font-size: 14px;
   color: white;
-  border: none;
   border-radius: 20px;
   padding: 15px;
 }
+.Menu_text1{
+  color: #fa9f3c;
+}
+.Menu_text:hover{
+ color: #fa9f3c;
+}
+.btn_contaict:hover{
+  background-color: #007bff;
+}
+
 .collapse {
   display: flex;
   margin: 0 30px;
@@ -71,7 +85,15 @@ body {
 }
 .icon {
   color: white;
-  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 0 1px #9e9ea0;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
 }
 .Menu_triangle2 {
   content: "";
@@ -114,12 +136,75 @@ h1 {
 }
 .Banner {
   display: flex;
-  align-items: center;
-  position: relative;
+  padding: 70px;
+  top: -90px;
+  left: 40px;
 }
 
-.Conten_icon{
+.Conten_icon {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
+  padding-top: 5vw;
+  justify-content: center;
+}
+.Conten_icon :hover{
+  background-color: #fa9f3c;
+}
+.icon_fb {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+  border: 1px solid #636569;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+}
+.icon_twi {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+  border: 1px solid #636569;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+}
+.icon_lin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  border: 1px solid #636569;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+}
+.btn_conten :hover{
+ background-color: #007bff;
+}
+.btn_1 {
+  background-color:#fa9f3c;
+  font-size: 22px;
+  color: white;
+  border: 1px solid #636569;
+  border-radius: 50px;
+  padding: 15px 50px;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+}
+.btn_2 {
+  background: transparent;
+  font-size: 22px;
+  color: white;
+  border: 1px solid #636569;
+  border-radius: 50px;
+  padding: 15px 50px;
+  transition-duration: 0.4s;
 }
