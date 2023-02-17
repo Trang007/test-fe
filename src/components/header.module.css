@@ -95,6 +95,9 @@ body {
   width: 55px;
   border-radius: 50%;
 }
+.icon:hover{
+  background-color: #007bff;
+}
 .Menu_triangle2 {
   content: "";
   background: url(../assets/Bottom-Right-Shape.png) no-repeat bottom right;
