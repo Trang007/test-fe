@@ -109,7 +109,10 @@ body {
 .element4:hover {
   border-top: 2px solid #fa9f3c;
 }
-
+.element4:hover .icon4 {
+ 
+  transform: translateY(-6px);
+}
 .content4 {
   display: flex;
   flex-direction: column;
@@ -118,6 +121,9 @@ body {
 }
 
 .icon4 {
+  transition-duration: .4s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
   margin: 20px;
 }
 

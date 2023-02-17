@@ -1,0 +1,90 @@
+.Improve {
+  background: url(../assets/business-background-img.jpg) no-repeat center;
+  background-size: cover;
+  height: 750px;
+  align-items: center;
+
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  width: 100% !important;
+}
+.Improve_triangle {
+  display: flex;
+  content: "";
+  background: url(../assets/Curve-shape-left.png) no-repeat left bottom;
+  position: absolute;
+  width: 273px;
+  height: 271px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.Improve_triangle2 {
+  display: flex;
+  position: absolute;
+  content: "";
+  background: url(../assets/Curve-shape-right.png) no-repeat top right;
+  position: absolute;
+  width: 363px;
+  height: 360px;
+  top: 0;
+  right: 0;
+}
+.Improve_triangle3 {
+  display: flex;
+  position: absolute;
+  content: "";
+  background: url(../assets/Curve-Shape3.png) no-repeat top left;
+  width: 89px;
+  height: 88px;
+  top: 182px;
+  left: 432px;
+}
+.Improve_content {
+  display: flex;
+  position: relative;
+  text-align: center;
+  margin-top: 13px;
+}
+.Improve_content_a1 {
+  font-size: 80px;
+  line-height: 82px;
+  color: #fff;
+
+  margin-left: 452px;
+  margin-top: -10px;
+}
+.Improve_content_a2 {
+  font-size: 24px;
+  line-height: 35px;
+  color: #fff;
+  margin-top: 182px;
+  margin-left: -770px;
+}
+.Improve_btn_content{
+    margin-left: 576px;
+    margin-top: 50px;
+}
+.Improve_btn_content :hover {
+  background-color: #007bff;
+}
+.Improve_btn_1 {
+  background-color: #fa9f3c;
+  font-size: 22px;
+  color: white;
+  border: 1px solid #636569;
+  border-radius: 50px;
+  padding: 15px 50px;
+  margin-right: 15px;
+  transition-duration: 0.4s;
+}
+.Improve_btn_2 {
+  background: transparent;
+  font-size: 22px;
+  color: white;
+  border: 1px solid #636569;
+  border-radius: 50px;
+  padding: 15px 50px;
+  transition-duration: 0.4s;
+}

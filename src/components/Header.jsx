@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import SettingsPhoneIcon from "@mui/icons-material/SettingsPhone";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
+import FadeIn from "react-fade-in";
 const Header = () => {
   return (
     <div className={style["Header"]}>
@@ -14,12 +14,24 @@ const Header = () => {
       <div className={style["Nav_menu"]}>
         <img className={style["Icon"]} src={Nav} />
         <div className={style["Menu"]}>
-          <a href="" className={style["Menu_text1"]}>Home</a>
-          <a href=""className={style["Menu_text"]} >About us</a>
-          <a href=""className={style["Menu_text"]}>News</a>
-          <a href=""className={style["Menu_text"]}>Services </a>
-          <a href=""className={style["Menu_text"]}>Pages</a>
-          <a href=""className={style["Menu_text"]}>Team</a>
+          <a href="" className={style["Menu_text1"]}>
+            Home
+          </a>
+          <a href="" className={style["Menu_text"]}>
+            About us
+          </a>
+          <a href="" className={style["Menu_text"]}>
+            News
+          </a>
+          <a href="" className={style["Menu_text"]}>
+            Services{" "}
+          </a>
+          <a href="" className={style["Menu_text"]}>
+            Pages
+          </a>
+          <a href="" className={style["Menu_text"]}>
+            Team
+          </a>
           <button className={style["btn_contaict"]}>Contact Us</button>
           <div className={style["collapse"]}>
             <SettingsPhoneIcon className={style["icon"]} fontSize="large" />
@@ -56,10 +68,12 @@ const Header = () => {
               nulla pariatur nostrud exercitation.
             </p>
           </div>
-          <div className={style["btn_conten"]}>
-            <button className={style["btn_1"]}>Get Started</button>
-            <button className={style["btn_2"]}>Learn More</button>
-          </div>
+          <FadeIn delay='2500'>
+            <div className={style["btn_conten"]}>
+              <button className={style["btn_1"]}>Get Started</button>
+              <button className={style["btn_2"]}>Learn More</button>
+            </div>
+          </FadeIn>
         </div>
       </div>
     </div>
