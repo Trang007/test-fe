@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 .Services {
   width: 100%;
@@ -33,7 +33,6 @@ body {
   position: relative;
 }
 .Services_left_img {
-  
   background: url(../assets/service-left-img.jpg) no-repeat;
   background-size: cover;
   height: 580px;
@@ -77,6 +76,10 @@ body {
   padding: 17px 49px 15px 50px;
   border-radius: 50px;
 }
+.text a:hover {
+  background-color: #fff;
+  color: #000;
+}
 
 .Services_right {
   background-color: #fff;
@@ -87,64 +90,72 @@ body {
   padding: 0 10px;
 }
 
-.group{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.element4{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    padding: 3px;
-    border-top: 2px solid #fa9f3c;
-    text-decoration: none;
+.element4 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 3px;
+  border-top: 2px solid #2880fc;
+  text-decoration: none;
+  box-shadow: 0 0 34px rgb(0 0 0 / 5%);
+}
+.element4:hover {
+  border-top: 2px solid #fa9f3c;
 }
 
-.content4{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    margin-right: 10px;
+.content4 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 10px;
 }
 
-.icon4{
-    margin: 20px;
+.icon4 {
+  margin: 20px;
 }
 
-.content4 h1{
-    color: #000;
-    font-size: 24px;
-    line-height: 30px;
-    margin-bottom: 20px;
-    padding: 0;
+.content4 h1 {
+  color: #031736;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  padding: 0;
 }
 
-.content4 h3{
-    margin-bottom: 10px;
-    font-size: 16px;
+.content4 h3 {
+  color: #6d7e99;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.arrow4{
-    display: flex;
-    justify-content: end;
+.arrow4 {
+  display: flex;
+  justify-content: end;
 }
 
-.arrow4 a{
-    font-size: 22px;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 40px 0 0 0;
-    background-color: #fa9f3c;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.arrow4 a {
+  text-decoration: none;
+  border-radius: 40px 0 0 0;
+  background-color: #fa9f3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 46px;
+  width: 46px;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 3px;
 }
 
-.arrow4 a:hover{
-    background-color: #007bff;
+.arrow4 a:hover {
+  background-color: #007bff;
 }

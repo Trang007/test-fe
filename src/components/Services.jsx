@@ -1,6 +1,10 @@
 import React from "react";
 import style from "./Services.module.css";
 import icon1 from "../assets/service-icon1.png";
+import icon2 from "../assets/service-icon2.png";
+import icon3 from "../assets/service-icon3.png";
+import icon4 from "../assets/service-icon4.png";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const Services = () => {
   return (
     <div className={style["Services"]}>
@@ -46,72 +50,82 @@ const Services = () => {
                   consequatur auor...
                 </h3>
                 <div className={style["arrow4"]}>
-                  <a href="">a</a>
+                  <a href="">
+                    {" "}
+                    <ArrowForwardIcon />{" "}
+                  </a>
                 </div>
               </div>
             </a>
-            <div className={style["element4"]}>
+
+            <a href="" className={style["element4"]}>
               <div className={style["icon4"]}>
-                <img src={icon1} alt="" />
+                <img src={icon2} alt="" />
               </div>
               <div className={style["content4"]}>
                 <h1>
-                  Business
+                  Marketing
                   <br />
-                  Growth
+                  Advices
                 </h1>
                 <h3>
-                  Nostrud exercitation alia
+                  Rostrud exercitation alia
                   <br />
                   consequatur auor...
                 </h3>
                 <div className={style["arrow4"]}>
-                  <a href="">a</a>
+                  <a href="">
+                    <ArrowForwardIcon />
+                  </a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div className={style["group"]}>
-            <div className={style["element4"]}>
+            <a href="" className={style["element4"]}>
               <div className={style["icon4"]}>
-                <img src={icon1} alt="" />
+                <img src={icon3} alt="" />
               </div>
               <div className={style["content4"]}>
                 <h1>
-                  Business
+                  Finance
                   <br />
-                  Growth
+                  Consulting
                 </h1>
                 <h3>
-                  Nostrud exercitation alia
+                  Aostrud exercitation alia
                   <br />
                   consequatur auor...
                 </h3>
                 <div className={style["arrow4"]}>
-                  <a href="">a</a>
+                  <a href="">
+                    <ArrowForwardIcon />
+                  </a>
                 </div>
               </div>
-            </div>
-            <div className={style["element4"]}>
+            </a>
+            <a href="" className={style["element4"]}>
               <div className={style["icon4"]}>
-                <img src={icon1} alt="" />
+                <img src={icon4} alt="" />
               </div>
               <div className={style["content4"]}>
                 <h1>
-                  Business
+                  Wealth
                   <br />
-                  Growth
+                  Management
                 </h1>
                 <h3>
-                  Nostrud exercitation alia
+                  Bostrud exercitation alia
                   <br />
                   consequatur auor...
                 </h3>
                 <div className={style["arrow4"]}>
-                  <a href="">a</a>
+                  <a href="">
+                    <ArrowForwardIcon />
+                  </a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
