@@ -38,6 +38,18 @@ const Static = () => {
             </div>
           </div>
         </div>
+        <div className={style["Static_bottom"]}>
+          <div className={style["Static_bottom_text_img"]}>
+            <div className={style["Static_bottom_text"]}>
+              <h5>Recently Completed</h5>
+              <h2>Our Latest Case Studies</h2>
+            </div>
+            <div className={style["Static_bottom_img"]}>
+              <div className={style["Static_bottom_img_top"]}></div>
+              <div className={style['Static_bottom_img_bottom']}></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
