@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Static.module.css";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Case1 from "../assets/case-report1-img.jpg";
 const Static = () => {
   return (
     <div className={style["Static"]}>
@@ -44,9 +46,96 @@ const Static = () => {
               <h5>Recently Completed</h5>
               <h2>Our Latest Case Studies</h2>
             </div>
-            <div className={style["Static_bottom_img"]}>
-              <div className={style["Static_bottom_img_top"]}></div>
-              <div className={style['Static_bottom_img_bottom']}></div>
+            <div className={style["CaseBody"]}>
+              <div className={style["Group"]}>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+              </div>
+              <div className={style["Group"]}>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+                <a href="" className={style["CaseLink"]}>
+                  <div className={style["CaseCurve"]}></div>
+                  <div className={style["CaseImg"]}>
+                    <img src={Case1} alt="" />
+                  </div>
+                  <div className={style["CaseContent"]}>
+                    <h5>Business, Finance</h5>
+                    <h3>Financial Report 2019</h3>
+                  </div>
+                  <div className={style["CaseIcon"]}>
+                    <ArrowForwardIcon fontSize="large" />
+                  </div>
+                  <div className={style["CaseBackground"]}></div>
+                </a>
+              </div>
+              <div className={style["Static_bottom_img_bottom"]}></div>
             </div>
           </div>
         </div>
