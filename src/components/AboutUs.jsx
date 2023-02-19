@@ -3,10 +3,9 @@ import style from "./AboutUs.module.css";
 import about_img from "../assets/about-sec-img.jpg";
 import about_video from "../assets/video-poster.jpg";
 import youtube from "../assets/youtube-icon.png";
-import FadeIn from "react-fade-in";
+
 const AboutUs = () => {
   return (
-    <FadeIn delay='1000'>
       <div className={style["AboutUs"]}>
         <div className={style["About_top_img"]}>
           <div className={style["About_top"]}>
@@ -47,7 +46,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-    </FadeIn>
   );
 };
 

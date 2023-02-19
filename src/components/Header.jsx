@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import SettingsPhoneIcon from "@mui/icons-material/SettingsPhone";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FadeIn from "react-fade-in";
+
 const Header = () => {
   return (
     <div className={style["Header"]}>
@@ -68,12 +68,14 @@ const Header = () => {
               nulla pariatur nostrud exercitation.
             </p>
           </div>
-          <FadeIn delay='2500'>
-            <div className={style["btn_conten"]}>
-              <button className={style["btn_1"]}>Get Started</button>
-              <button className={style["btn_2"]}>Learn More</button>
-            </div>
-          </FadeIn>
+
+          <div
+            className={style["btn_conten"]}
+           
+          >
+            <button className={style["btn_1"]}>Get Started</button>
+            <button className={style["btn_2"]}>Learn More</button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.About{
+  display: block;
+  transition: 0.6s ;
+}
+
 .AboutUs {
   display: flex;
   flex-direction: column;

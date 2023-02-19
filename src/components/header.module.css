@@ -33,7 +33,7 @@ body {
   padding: 20px;
   position: absolute;
   width: 100%;
-  top:0;
+  top: 0;
 }
 .Icon {
   margin-right: 25px;
@@ -51,7 +51,7 @@ body {
   font-size: 20px;
   padding: 0 5px;
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 .Menu .btn_contaict {
   background-color: #fa9f3c;
@@ -61,13 +61,13 @@ body {
   border-radius: 20px;
   padding: 15px;
 }
-.Menu_text1{
+.Menu_text1 {
   color: #fa9f3c;
 }
-.Menu_text:hover{
- color: #fa9f3c;
+.Menu_text:hover {
+  color: #fa9f3c;
 }
-.btn_contaict:hover{
+.btn_contaict:hover {
   background-color: #007bff;
 }
 
@@ -95,7 +95,7 @@ body {
   width: 55px;
   border-radius: 50%;
 }
-.icon:hover{
+.icon:hover {
   background-color: #007bff;
 }
 .Menu_triangle2 {
@@ -151,7 +151,7 @@ h1 {
   padding-top: 5vw;
   justify-content: center;
 }
-.Conten_icon :hover{
+.Conten_icon :hover {
   background-color: #fa9f3c;
 }
 .icon_fb {
@@ -189,11 +189,14 @@ h1 {
   height: 48px;
   font-size: 20px;
 }
-.btn_conten :hover{
- background-color: #007bff;
+.btn_conten {
+  
+}
+.btn_conten :hover {
+  background-color: #007bff;
 }
 .btn_1 {
-  background-color:#fa9f3c;
+  background-color: #fa9f3c;
   font-size: 22px;
   color: white;
   border: 1px solid #636569;
@@ -212,5 +215,4 @@ h1 {
   transition-duration: 0.4s;
 }
 @media screen {
-  
 }
