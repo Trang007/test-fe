@@ -11,7 +11,7 @@ body {
 @import url(./components/Services.module.css);
 @import url(./components/Improve.module.css);
 @import url(./components/Static.module.css);
-
+@import url(./components/Blog.module.css);
 
 
 .Youtube {

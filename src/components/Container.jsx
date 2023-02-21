@@ -3,6 +3,7 @@ import AboutUs from './AboutUs'
 import Services from "./Services"
 import Improve from "./Improve"
 import Static from './Static'
+import Blog from "./Blog"
 import style from './Container.module.css'
 
 const Container = () => {
@@ -12,6 +13,7 @@ const Container = () => {
         <Services/>
         <Improve/>
         <Static/>
+        <Blog/>
     </div>
   )
 }
